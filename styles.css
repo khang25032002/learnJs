@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.product .title {
+    width: 100%;
+    text-align: center;
+}
+
+.product {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .product-image {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.product .product-infor {
+    width: 50%;
+    height: 100%;
+}
+
+.product-description p {
+    height: 30%;
+    padding: 30px 0;
+    text-align: justify;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    font-weight: 600;
+    opacity: .7;
+    line-height: 25px;
+}
+
+.infor {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.inforName {
+    min-width: 65px;
+    font-weight: 600;
+}
+
+.inforValue {
+    min-width: 50px;;
+}
+
+.product-price {
+    margin-top: 15px;
+}
+
+#review {
+    line-height: 27px;
+    border-bottom: none !important;
+    margin-bottom: 20px;
+}
+
+.buy-product {
+    width: 100%;
+    position: relative;
+    height: 30%;
+}
+
+.buy-product button {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 25px;
+    background-color: yellowgreen;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+.buy-product button:hover {
+    opacity: .8;
+}
